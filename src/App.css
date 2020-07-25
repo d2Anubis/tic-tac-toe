@@ -1,0 +1,85 @@
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  flex-direction: column;
+  user-select: none;
+}
+
+#board {
+  width: 380px ;
+  height: 400px ;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  user-select: none;
+  align-items: center;
+  border:1px solid  rgb(80, 78, 78)e;
+  background-color: rgb(146, 141, 141);
+  border-radius: 10px;
+}
+
+.square {
+  display: flex;
+  background-color: rgb(252, 252, 252);
+  height: 100px;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(221, 215, 215);
+  border-radius: 0.2em;
+  font-size: 50px;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+  color:rgb(168, 165, 165);
+  margin: 3px 8px 3px 8px;
+}
+
+.square:hover
+{
+  background-color: grey;
+}
+
+.Final
+{
+  height:50px;
+  width:250px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(225, 255, 181);
+  margin:10px 15px 15px 15px;
+  font-size: 20px;
+  user-select: none;
+  text-align: center;
+  border-radius: 1em;
+}
+
+#heading
+{
+  font-family:Lucida Console;
+  color:rgb(39, 38, 38);
+  font-stretch: ultra-expanded;
+  font-size: 35px;
+  user-select: none;
+}       
+
+#refresh
+{
+  height:40px;
+  width:150px;
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  left: 45%;
+  position: absolute;
+  margin-top: 10px;
+  border-radius: 20px;
+  user-select: none;
+  border: false;
+  color:black;
+  background-color: rgb(255, 180, 177);
+  border-width: 0;
+}
